@@ -1,0 +1,15 @@
+{
+  "name": "dash-deploy",
+  "version": "1.0.0",
+  "description": "Start a deployment on pressing the Amazon Dash button",
+  "main": "index.js",
+  "author": "Binoy Patel",
+  "license": "MIT",
+  "scripts": {
+    "scan": "dash-button scan"
+  },
+  "dependencies": {
+    "dash-button": "^2.0.1",
+    "request": "^2.79.0"
+  }
+}
